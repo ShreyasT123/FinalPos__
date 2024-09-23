@@ -102,14 +102,14 @@ def create_circuit_from_json(circuit_json):
     ckt = cirq_web.Circuit3D(circuit)
 
 
-    a = ckt.generate_html_file(output_directory=r"C:\Users\sstha\Desktop\SuperPos\experiments\posexpr\templates",)
+    a = ckt.generate_html_file(output_directory=r"C:\Users\sstha\Desktop\FinalPos__\experiments\posexpr\templates",)
 
     with open(a, "r") as f:
         html = f.readlines()
 
 
 
-    with open(r'C:\Users\sstha\Desktop\SuperPos\experiments\posexpr\templates\Ckt3d.html','w+',encoding="utf-8") as f:
+    with open(r'C:\Users\sstha\Desktop\FinalPos__\experiments\posexpr\templates\Ckt3d.html','w+',encoding="utf-8") as f:
         f.write("""
 
 <!DOCTYPE html>
