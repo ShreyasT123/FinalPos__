@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Quantum Circuit Visualizer</title>
+    <style>
+:root {
+  --color-bg: #0d1117;
+  --color-text: #c9d1d9;
+  --color-border: #30363d;
+  --color-primary: #58a6ff;
+  --color-secondary: #21262d;
+  --color-accent: #f78166;
+}
+
+.base {
+    display: flex; /* Enables flexbox */
+    gap: 20px; /* Space between the divs */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: var(--color-secondary); /* Background color */
+    border: 1px solid var(--color-border); /* Border color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.model, .documentation {
+    flex: 1; /* Ensures both divs take equal space */
+    background: var(--color-bg); /* Matches the background color of the body */
+    border: 1px solid var(--color-border); /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--color-text); /* Text color */
+}
+
+
+
+/* Responsive design: stack the divs vertically on smaller screens */
+@media (max-width: 768px) {
+    .base {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+<body>
+ <div class="base">
+    <div class="model">
+                
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Quantum Circuit Visualizer</h1>
+        <p>Explore the fascinating world of quantum circuits with our interactive visualizer.</p>
+        <a href="http://localhost:5173/" class="btn">Go to Simulator</a>
+        <a href="http://localhost:5000/documentation" class="btn">View Documentation</a>
+    </div>
+</body>
+</html>
