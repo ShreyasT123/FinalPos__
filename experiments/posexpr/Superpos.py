@@ -122,36 +122,37 @@ def create_circuit_from_json(circuit_json):
                 
 <style>                
 :root {
-  --color-bg: #0d1117;
-  --color-text: #c9d1d9;
-  --color-border: #30363d;
-  --color-primary: #58a6ff;
-  --color-secondary: #21262d;
-  --color-accent: #f78166;
+  --color-bg: #0a192f; /* Dark Navy */
+  --color-text: #ccd6f6; /* Light Blue */
+  --color-border: #1e2a47; /* Medium Navy */
+  --color-primary: #64ffda; /* Teal Accent */
+  --color-secondary: #112240; /* Darker Navy */
+  --color-accent: #f07167; /* Soft Red Accent */
+  --color-code-bg: #112240; /* Code Block Background */
+  --color-code-text: #a8dadc; /* Code Text */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .base {
-    display: flex; /* Enables flexbox */
-    gap: 20px; /* Space between the divs */
+    display: flex;
+    gap: 20px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background: var(--color-secondary); /* Background color */
-    border: 1px solid var(--color-border); /* Border color */
-    border-radius: 8px; /* Rounded corners */
+    background: var(--color-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
 }
 
 .model, .documentation {
-    flex: 1; /* Ensures both divs take equal space */
-    background: var(--color-bg); /* Matches the background color of the body */
-    border: 1px solid var(--color-border); /* Border color */
-    border-radius: 8px; /* Rounded corners */
+    flex: 1;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
     padding: 20px;
     box-sizing: border-box;
-    color: var(--color-text); /* Text color */
+    color: var(--color-text);
 }
-
-
 
 /* Responsive design: stack the divs vertically on smaller screens */
 @media (max-width: 768px) {
@@ -159,6 +160,7 @@ def create_circuit_from_json(circuit_json):
         flex-direction: column;
     }
 }
+
 </style>
 
 </head>

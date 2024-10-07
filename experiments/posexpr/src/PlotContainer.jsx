@@ -20,7 +20,7 @@ const PlotContainer = ({ probPlotData, phasePlotData }) => {
 
   return (
     <div className="plots-container">
-      <h3>You can view your circuit in 3d mode <a href="http://localhost:5000/3dckt">here</a>. Note: make sure to open it in another tab or else your lose your activtiy</h3>
+      <h3>You can view your circuit in 3d mode <a href="http://localhost:5000/3dckt" target="_blank">here</a>. Note: make sure to open it in another tab or else your lose your activtiy</h3>
       <div ref={probPlotRef} className="probability-plot" />
       <div ref={phasePlotRef} className="phase-plot" />
     
