@@ -177,7 +177,148 @@ def create_circuit_from_json(circuit_json):
 
    
             Model Content</div>
-    <div class="documentation">Documentation Content</div>
+    <div class="documentation">
+                <p>Documentation Content</p>
+           
+     <div class="gate-section">
+            <h3>Hadamard (H) Gate</h3>
+            <p class="description">The Hadamard gate creates a superposition state from a basis state.</p>
+            <pre>{
+    "type": "H",
+    "targets": ["q0"]
+}</pre>
+        </div>
+
+        <!-- X Gate -->
+        <div class="gate-section">
+            <h3>Pauli-X (X) Gate</h3>
+            <p class="description">The Pauli-X gate acts as a quantum bit flip, analogous to the NOT gate in classical computing.</p>
+            <pre>{
+    "type": "X",
+    "targets": ["q1"]
+}</pre>
+        </div>
+
+        <!-- Y Gate -->
+        <div class="gate-section">
+            <h3>Pauli-Y (Y) Gate</h3>
+            <p class="description">The Pauli-Y gate is a combination of the X and Z gates, introducing a 90-degree phase shift.</p>
+            <pre>{
+    "type": "Y",
+    "targets": ["q0"]
+}</pre>
+        </div>
+
+        <!-- Z Gate -->
+        <div class="gate-section">
+            <h3>Pauli-Z (Z) Gate</h3>
+            <p class="description">The Pauli-Z gate flips the phase of the qubit if it is in the state |1⟩.</p>
+            <pre>{
+    "type": "Z",
+    "targets": ["q0"]
+}</pre>
+        </div>
+
+        <!-- CNOT Gate -->
+        <div class="gate-section">
+            <h3>CNOT Gate</h3>
+            <p class="description">The Controlled-NOT (CNOT) gate flips the target qubit if the control qubit is in state 1.</p>
+            <pre>{
+    "type": "CNOT",
+    "control": "q0",
+    "targets": ["q1"]
+}</pre>
+        </div>
+
+        <!-- SWAP Gate -->
+        <div class="gate-section">
+            <h3>SWAP Gate</h3>
+            <p class="description">The SWAP gate exchanges the states of two qubits.</p>
+            <pre>{
+    "type": "SWAP",
+    "targets": ["q1", "q2"]
+}</pre>
+        </div>
+
+        <!-- T Gate -->
+        <div class="gate-section">
+            <h3>T Gate</h3>
+            <p class="description">The T gate is a phase gate that applies a π/4 phase shift to the qubit.</p>
+            <pre>{
+    "type": "T",
+    "targets": ["q0"]
+}</pre>
+        </div>
+
+        <!-- S Gate -->
+        <div class="gate-section">
+            <h3>S Gate</h3>
+            <p class="description">The S gate, also called the phase gate, applies a π/2 phase shift to the qubit.</p>
+            <pre>{
+    "type": "S",
+    "targets": ["q0"]
+}</pre>
+        </div>
+
+        <!-- Toffoli Gate -->
+        <div class="gate-section">
+            <h3>Toffoli (CCX) Gate</h3>
+            <p class="description">The Toffoli gate, or CCX, is a three-qubit gate that flips the target qubit if both control qubits are in state 1.</p>
+            <pre>{
+    "type": "CCX",
+    "control1": "q0",
+    "control2": "q1",
+    "targets": ["q2"]
+}</pre>
+        </div>
+
+        <!-- RX Gate -->
+        <div class="gate-section">
+            <h3>RX Gate</h3>
+            <p class="description">The RX gate rotates the qubit around the X-axis by the given angle θ.</p>
+            <pre>{
+    "type": "RX",
+    "targets": ["q0"],
+    "theta": 1.57
+}</pre>
+        </div>
+
+        <!-- RY Gate -->
+        <div class="gate-section">
+            <h3>RY Gate</h3>
+            <p class="description">The RY gate rotates the qubit around the Y-axis by the given angle θ.</p>
+            <pre>{
+    "type": "RY",
+    "targets": ["q0"],
+    "theta": 1.57
+}</pre>
+        </div>
+
+        <!-- RZ Gate -->
+        <div class="gate-section">
+            <h3>RZ Gate</h3>
+            <p class="description">The RZ gate rotates the qubit around the Z-axis by the given angle θ.</p>
+            <pre>{
+    "type": "RZ",
+    "targets": ["q0"],
+    "theta": 1.57
+}</pre>
+        </div>
+
+        <!-- U3 Gate -->
+        <div class="gate-section">
+            <h3>U3 Gate</h3>
+            <p class="description">The U3 gate applies a general rotation to a qubit with three parameters (θ, φ, λ).</p>
+            <pre>{
+    "type": "U3",
+    "targets": ["q0"],
+    "theta": 1.57,
+    "phi": 0.785,
+    "lambda": 0.785
+}</pre>
+                </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
@@ -262,6 +403,9 @@ def simulate_custom_circuit():
         app.logger.error(f"An error occurred: {str(e)}")
         app.logger.error(traceback.format_exc())
         return jsonify({'error': str(e), 'traceback': traceback.format_exc()}), 500
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

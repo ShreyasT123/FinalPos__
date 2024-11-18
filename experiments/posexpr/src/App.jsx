@@ -1,4 +1,4 @@
-import { useState,  } from 'react';
+import { useState} from 'react';
 
 import CircuitInput from './CircuitInput';
 import PlotContainer from './PlotContainer';
