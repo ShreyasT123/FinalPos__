@@ -48,7 +48,7 @@ export default function RootLayout({
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <Link href="/" className="text-2xl font-bold text-navy-600 dark:text-navy-300">
-                  QuantumLeap
+                SuperPos
                 </Link>
                 <div className="ml-10 flex items-baseline space-x-4">
                   <NavLink href="/simulator">Simulator</NavLink>
