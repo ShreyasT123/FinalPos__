@@ -1,6 +1,6 @@
 import GatesPage from "@/components/ui/GatesPage";
 
-const Docs=()=>{
+const GatesDocs=()=>{
     return (
         <div>
             <h1 className="text-4xl">List of Quantum gates </h1>
@@ -10,4 +10,4 @@ const Docs=()=>{
 }
 
 
-export default Docs;
+export default GatesDocs;
