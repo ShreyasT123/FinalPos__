@@ -4,7 +4,7 @@ import './globals.css'
 import { useState, useEffect } from 'react'
 import { ThemeProvider } from './theme-provider'
 import { Navigation } from '@/components/ui/navigation'
-
+import { ChatWindow } from '@/components/ui/ChatWindow'
 export default function RootLayout({
   children,
 }: {
@@ -41,6 +41,7 @@ export default function RootLayout({
           <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             {children}
           </main>
+          <ChatWindow/>
         </ThemeProvider>
       </body>
     </html>
