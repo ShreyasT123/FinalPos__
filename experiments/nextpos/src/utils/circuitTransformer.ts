@@ -1,34 +1,6 @@
-interface CircuitMetadata {
-  name: string;
-  description: string;
-}
+import { Gate, CircuitData, Operation } from '../types/circuit';
 
-interface CircuitLayout {
-  type: string;
-  dimensions: number[];
-  qubits: {
-    [key: string]: {
-      position: number[];
-    };
-  };
-}
-
-interface Operation {
-  type: string;
-  targets: string[];
-  control?: string;
-  angle?: number;
-}
-
-export interface CircuitData {
-  circuit: {
-    metadata: CircuitMetadata;
-    layout: CircuitLayout;
-    operations: Operation[];
-  };
-}
-
-export function transformCircuit(circuit: any[], qubits: number): CircuitData {
+export function transformCircuit(circuit: Gate[], qubits: number): CircuitData {
   // Create qubit layout
   const qubitLayout: { [key: string]: { position: number[] } } = {};
   for (let i = 0; i < qubits; i++) {
@@ -36,43 +8,40 @@ export function transformCircuit(circuit: any[], qubits: number): CircuitData {
   }
 
   // Transform operations
-  const operations = circuit.map(gate => {
+  const operations = circuit.map((gate): Operation | null => {
+    // Skip invalid gates
+    if (!gate.targets || !gate.type) return null;
+
     const operation: Operation = {
       type: gate.type.toUpperCase(),
-      targets: gate.targets.map((t: number) => `q${t}`)
+      targets: gate.targets.map(t => `q${t}`),
     };
 
-    // Handle controlled gates (CNOT, CZ, etc.)
+    // Handle controlled gates
     if (gate.controls && gate.controls.length > 0) {
-      // For multi-controlled gates, use the last control as the main control
-      operation.control = `q${gate.controls[gate.controls.length - 1]}`;
+      operation.control = gate.controls.map(c => `q${c}`).join(',');
     }
 
-    // Handle rotation gates (RX, RY, RZ)
-    if (gate.type.startsWith('r') && gate.params?.angle !== undefined) {
+    // Handle rotation gates
+    if (gate.params?.angle !== undefined) {
       operation.angle = gate.params.angle;
     }
 
-    // Handle SWAP gates
-    if (gate.type === 'swap') {
-      operation.targets = gate.targets.map((t: number) => `q${t}`);
-    }
-
     return operation;
-  });
+  }).filter((op): op is Operation => op !== null);
 
   return {
     circuit: {
       metadata: {
         name: "Quantum Circuit",
-        description: "Generated quantum circuit with various quantum gates"
+        description: "Generated quantum circuit with various quantum gates",
       },
       layout: {
         type: "linear",
         dimensions: [qubits],
-        qubits: qubitLayout
+        qubits: qubitLayout,
       },
-      operations: operations
-    }
+      operations: operations,
+    },
   };
 }

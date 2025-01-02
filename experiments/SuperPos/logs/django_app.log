@@ -1,0 +1,380 @@
+INFO 2025-01-01 18:47:54,784 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 18:48:02,114 basehttp "OPTIONS /simulate HTTP/1.1" 200 0
+WARNING 2025-01-01 18:48:02,158 log Not Found: /simulate
+WARNING 2025-01-01 18:48:02,159 basehttp "POST /simulate HTTP/1.1" 404 2354
+INFO 2025-01-01 18:48:43,538 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\urls.py changed, reloading.
+INFO 2025-01-01 18:48:44,251 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:48:48,605 log Not Found: /simulate
+WARNING 2025-01-01 18:48:48,606 basehttp "POST /simulate HTTP/1.1" 404 2354
+INFO 2025-01-01 18:49:06,765 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\urls.py changed, reloading.
+INFO 2025-01-01 18:49:07,430 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:49:11,258 log Not Found: /simulate
+WARNING 2025-01-01 18:49:11,259 basehttp "POST /simulate HTTP/1.1" 404 2354
+WARNING 2025-01-01 18:49:12,280 log Not Found: /simulate
+WARNING 2025-01-01 18:49:12,281 basehttp "POST /simulate HTTP/1.1" 404 2354
+INFO 2025-01-01 18:49:21,092 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\urls.py changed, reloading.
+INFO 2025-01-01 18:49:21,752 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:49:24,368 log Not Found: /simulate
+WARNING 2025-01-01 18:49:24,369 basehttp "POST /simulate HTTP/1.1" 404 2354
+INFO 2025-01-01 18:51:06,175 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+WARNING 2025-01-01 18:51:06,180 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:51:06,181 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 18:51:08,169 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:51:08,171 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:52:06,507 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:52:07,118 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:52:21,196 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:52:21,197 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:52:27,358 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:52:28,060 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 18:52:34,941 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:52:35,636 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:52:37,892 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:52:37,892 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:54:02,883 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:54:03,601 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:54:06,027 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:54:06,028 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 18:54:06,938 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:54:06,939 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 18:54:08,385 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:54:08,385 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:54:31,113 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:54:31,787 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:54:34,840 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:54:34,842 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:55:26,590 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:55:27,277 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:55:31,792 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:55:31,793 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:55:55,206 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:55:55,842 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:56:00,562 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:56:00,564 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:56:16,144 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 18:56:16,884 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 18:56:20,161 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:56:20,162 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 18:56:21,623 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:56:21,624 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 18:57:08,371 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 18:57:48,524 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+WARNING 2025-01-01 18:57:48,531 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:57:48,532 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 18:59:01,034 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 18:59:01,036 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+WARNING 2025-01-01 19:00:16,680 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /superpos/simulate
+WARNING 2025-01-01 19:00:16,682 basehttp "POST /superpos/simulate HTTP/1.1" 403 2554
+INFO 2025-01-01 19:01:51,132 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 19:01:51,809 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-01 19:02:01,177 log Internal Server Error: /superpos/simulate
+Traceback (most recent call last):
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2025-01-01 19:02:01,179 basehttp "POST /superpos/simulate HTTP/1.1" 500 79442
+INFO 2025-01-01 19:02:41,693 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\SuperPos\settings.py changed, reloading.
+INFO 2025-01-01 19:02:42,448 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-01 19:02:44,380 log Internal Server Error: /superpos/simulate
+Traceback (most recent call last):
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2025-01-01 19:02:44,381 basehttp "POST /superpos/simulate HTTP/1.1" 500 79442
+ERROR 2025-01-01 19:03:55,427 log Internal Server Error: /superpos/simulate
+Traceback (most recent call last):
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2025-01-01 19:03:55,430 basehttp "POST /superpos/simulate HTTP/1.1" 500 79442
+INFO 2025-01-01 19:10:43,625 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:10:44,322 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-01 19:10:56,547 log Internal Server Error: /superpos/simulate
+Traceback (most recent call last):
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sstha\anaconda3\envs\projectenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2025-01-01 19:10:56,548 basehttp "POST /superpos/simulate HTTP/1.1" 500 79442
+INFO 2025-01-01 19:12:07,233 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:12:07,883 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-01 19:12:15,868 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 19:12:15,870 basehttp "POST /superpos/simulate HTTP/1.1" 500 984
+INFO 2025-01-01 19:12:45,875 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:12:46,599 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-01 19:12:50,836 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 19:12:50,836 basehttp "POST /superpos/simulate HTTP/1.1" 500 992
+INFO 2025-01-01 19:13:24,457 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:13:25,219 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:13:28,951 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 19:13:50,675 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 19:18:43,890 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:18:45,567 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:18:54,072 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\urls.py changed, reloading.
+INFO 2025-01-01 19:18:55,804 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:19:49,149 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:19:50,930 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:21:03,254 basehttp "OPTIONS /superpos/chat HTTP/1.1" 200 0
+WARNING 2025-01-01 19:21:03,266 log Bad Request: /superpos/chat
+WARNING 2025-01-01 19:21:03,269 basehttp "POST /superpos/chat HTTP/1.1" 400 19
+INFO 2025-01-01 19:24:56,893 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:24:58,614 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:25:46,271 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\urls.py changed, reloading.
+INFO 2025-01-01 19:25:47,922 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 19:25:56,698 log Bad Request: /superpos/chat
+WARNING 2025-01-01 19:25:56,699 basehttp "POST /superpos/chat HTTP/1.1" 400 19
+INFO 2025-01-01 19:27:18,544 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:27:20,239 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-01 19:28:07,851 log Bad Request: /superpos/chat
+WARNING 2025-01-01 19:28:07,852 basehttp "POST /superpos/chat HTTP/1.1" 400 19
+INFO 2025-01-01 19:28:39,764 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 19:28:41,459 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 19:28:54,580 basehttp "POST /superpos/chat HTTP/1.1" 200 2446
+INFO 2025-01-01 19:29:02,498 basehttp "POST /superpos/chat HTTP/1.1" 200 1398
+INFO 2025-01-01 19:29:15,407 basehttp "POST /superpos/chat HTTP/1.1" 200 1108
+INFO 2025-01-01 19:43:39,068 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 19:45:01,852 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 19:54:48,153 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 19:55:58,150 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 20:00:57,885 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+INFO 2025-01-01 20:02:05,843 basehttp "POST /superpos/simulate HTTP/1.1" 200 18936
+ERROR 2025-01-01 20:02:46,732 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:02:46,734 basehttp "POST /superpos/simulate HTTP/1.1" 500 564
+INFO 2025-01-01 20:04:05,273 basehttp "POST /superpos/simulate HTTP/1.1" 200 19083
+ERROR 2025-01-01 20:04:51,116 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:04:51,118 basehttp "POST /superpos/simulate HTTP/1.1" 500 564
+INFO 2025-01-01 20:13:46,752 basehttp "POST /superpos/simulate HTTP/1.1" 200 19128
+ERROR 2025-01-01 20:14:20,481 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:14:20,483 basehttp "POST /superpos/simulate HTTP/1.1" 500 603
+INFO 2025-01-01 20:15:09,800 basehttp "POST /superpos/simulate HTTP/1.1" 200 19272
+ERROR 2025-01-01 20:15:22,962 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:15:22,963 basehttp "POST /superpos/simulate HTTP/1.1" 500 603
+ERROR 2025-01-01 20:19:29,304 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:19:29,305 basehttp "POST /superpos/simulate HTTP/1.1" 500 603
+INFO 2025-01-01 20:22:11,280 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-01 20:22:13,005 autoreload Watching for file changes with StatReloader
+INFO 2025-01-01 20:23:18,294 basehttp "POST /superpos/simulate HTTP/1.1" 200 19093
+INFO 2025-01-01 20:23:29,915 basehttp "POST /superpos/simulate HTTP/1.1" 200 19156
+ERROR 2025-01-01 20:36:17,985 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:36:17,987 basehttp "POST /superpos/simulate HTTP/1.1" 500 611
+INFO 2025-01-01 20:50:08,263 basehttp "POST /superpos/simulate HTTP/1.1" 200 19325
+ERROR 2025-01-01 20:50:22,651 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:50:22,652 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-01 20:53:03,249 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+ERROR 2025-01-01 20:53:03,260 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:53:03,261 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+ERROR 2025-01-01 20:53:25,370 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:53:25,373 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+ERROR 2025-01-01 20:53:44,991 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-01 20:53:44,992 basehttp "POST /superpos/simulate HTTP/1.1" 500 564
+INFO 2025-01-02 13:33:14,569 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 13:36:15,010 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 13:37:20,163 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+ERROR 2025-01-02 13:37:20,193 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:37:20,196 basehttp "POST /superpos/simulate HTTP/1.1" 500 386
+INFO 2025-01-02 13:39:12,921 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+ERROR 2025-01-02 13:39:12,925 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:39:12,926 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+ERROR 2025-01-02 13:39:50,726 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:39:50,728 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+INFO 2025-01-02 13:45:48,423 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+ERROR 2025-01-02 13:46:01,693 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:46:01,694 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+ERROR 2025-01-02 13:49:01,968 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:49:01,970 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+ERROR 2025-01-02 13:50:52,265 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:50:52,265 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+ERROR 2025-01-02 13:52:52,799 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 13:52:52,800 basehttp "POST /superpos/simulate HTTP/1.1" 500 650
+INFO 2025-01-02 14:51:08,011 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+INFO 2025-01-02 14:51:12,789 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+INFO 2025-01-02 14:51:18,399 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+INFO 2025-01-02 14:51:22,175 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+INFO 2025-01-02 14:51:23,503 basehttp "POST /superpos/simulate HTTP/1.1" 200 19054
+INFO 2025-01-02 14:51:40,562 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:42,615 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:43,514 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:44,449 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:45,233 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:45,794 basehttp "POST /superpos/simulate HTTP/1.1" 200 19103
+INFO 2025-01-02 14:51:57,178 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:57,993 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:58,916 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:51:59,646 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:00,333 basehttp "POST /superpos/simulate HTTP/1.1" 200 19103
+INFO 2025-01-02 14:52:00,950 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:01,731 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:02,248 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:03,211 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:03,760 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:04,653 basehttp "POST /superpos/simulate HTTP/1.1" 200 19103
+INFO 2025-01-02 14:52:05,154 basehttp "POST /superpos/simulate HTTP/1.1" 200 19135
+INFO 2025-01-02 14:52:18,816 basehttp "POST /superpos/simulate HTTP/1.1" 200 19107
+INFO 2025-01-02 14:52:19,780 basehttp "POST /superpos/simulate HTTP/1.1" 200 19139
+INFO 2025-01-02 14:52:20,685 basehttp "POST /superpos/simulate HTTP/1.1" 200 19107
+INFO 2025-01-02 14:52:21,228 basehttp "POST /superpos/simulate HTTP/1.1" 200 19107
+INFO 2025-01-02 14:52:22,247 basehttp "POST /superpos/simulate HTTP/1.1" 200 19139
+INFO 2025-01-02 14:52:22,725 basehttp "POST /superpos/simulate HTTP/1.1" 200 19139
+INFO 2025-01-02 14:52:25,752 basehttp "POST /superpos/simulate HTTP/1.1" 200 19139
+INFO 2025-01-02 14:53:27,261 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:30,511 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:32,599 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:34,498 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:34,967 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:35,954 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:36,509 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:37,568 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:38,333 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:39,486 basehttp "POST /superpos/simulate HTTP/1.1" 200 19752
+INFO 2025-01-02 14:53:40,045 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:41,174 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:41,743 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:42,734 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:43,303 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:43,700 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:44,079 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:44,318 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:44,538 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:44,726 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:44,974 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:45,235 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:45,489 basehttp "POST /superpos/simulate HTTP/1.1" 200 19727
+INFO 2025-01-02 14:53:45,723 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+INFO 2025-01-02 14:53:46,342 basehttp "POST /superpos/simulate HTTP/1.1" 200 19656
+ERROR 2025-01-02 14:55:31,644 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 14:55:31,646 basehttp "POST /superpos/simulate HTTP/1.1" 500 564
+INFO 2025-01-02 14:58:35,868 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 14:58:38,224 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 14:58:42,623 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 14:58:42,638 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 14:59:51,735 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 14:59:53,458 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:01:17,561 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:01:17,562 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:01:35,290 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:01:36,902 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:01:45,746 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:01:45,747 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:02:50,408 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:02:52,064 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:02:58,270 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:02:58,271 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+ERROR 2025-01-02 15:03:00,148 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:03:00,149 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:04:33,748 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:04:35,215 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 15:04:53,285 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:04:54,113 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 15:06:12,618 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:06:13,413 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 15:06:22,894 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:06:32,344 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:06:32,344 basehttp "POST /superpos/simulate HTTP/1.1" 500 619
+INFO 2025-01-02 15:07:26,613 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:07:28,154 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:07:32,787 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:07:32,788 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:09:16,059 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:09:17,648 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:09:28,882 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:09:28,883 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:10:29,352 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:10:30,874 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:10:35,559 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:10:35,565 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+ERROR 2025-01-02 15:11:01,999 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:11:02,000 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+ERROR 2025-01-02 15:15:00,068 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:15:00,069 basehttp "POST /superpos/simulate HTTP/1.1" 500 566
+INFO 2025-01-02 15:16:56,317 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:16:57,981 autoreload Watching for file changes with StatReloader
+ERROR 2025-01-02 15:17:02,678 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:17:02,680 basehttp "POST /superpos/simulate HTTP/1.1" 500 633
+INFO 2025-01-02 15:17:48,390 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:17:50,143 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 15:17:56,524 basehttp "POST /superpos/simulate HTTP/1.1" 200 18995
+INFO 2025-01-02 15:18:41,967 basehttp "POST /superpos/simulate HTTP/1.1" 200 19049
+INFO 2025-01-02 15:18:51,427 basehttp "POST /superpos/simulate HTTP/1.1" 200 19044
+INFO 2025-01-02 15:19:08,751 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:19:11,441 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:41,130 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:42,384 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:43,472 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:43,956 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:45,125 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:45,442 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:49,785 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:50,862 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:54,163 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:54,925 basehttp "POST /superpos/simulate HTTP/1.1" 200 19217
+INFO 2025-01-02 15:21:55,858 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:56,398 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:57,328 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:57,882 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:58,592 basehttp "POST /superpos/simulate HTTP/1.1" 200 19217
+INFO 2025-01-02 15:21:59,251 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:21:59,937 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:00,550 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:01,419 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:02,130 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:03,194 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:04,006 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:07,759 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:08,442 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:09,654 basehttp "POST /superpos/simulate HTTP/1.1" 200 19249
+INFO 2025-01-02 15:22:10,194 basehttp "POST /superpos/simulate HTTP/1.1" 200 19217
+INFO 2025-01-02 15:22:15,967 autoreload C:\Users\sstha\Desktop\WEB\FinalPos__\experiments\SuperPos\Pos\views.py changed, reloading.
+INFO 2025-01-02 15:22:17,422 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 15:23:59,847 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:02,788 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:03,801 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:04,730 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:05,420 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:06,357 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:06,976 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:08,083 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:08,688 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:09,473 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:10,080 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:10,939 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:11,483 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:12,320 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:24:12,911 basehttp "POST /superpos/simulate HTTP/1.1" 200 19866
+INFO 2025-01-02 15:33:43,225 basehttp "POST /superpos/simulate HTTP/1.1" 200 19866
+INFO 2025-01-02 15:36:28,060 basehttp "POST /superpos/simulate HTTP/1.1" 200 19810
+INFO 2025-01-02 15:38:39,450 basehttp "POST /superpos/simulate HTTP/1.1" 200 19866
+INFO 2025-01-02 15:40:43,378 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+INFO 2025-01-02 15:40:43,421 basehttp "POST /superpos/simulate HTTP/1.1" 200 19034
+INFO 2025-01-02 15:52:28,338 basehttp "POST /superpos/simulate HTTP/1.1" 200 19152
+INFO 2025-01-02 15:54:59,210 basehttp "OPTIONS /superpos/simulate HTTP/1.1" 200 0
+ERROR 2025-01-02 15:54:59,214 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:54:59,241 basehttp "POST /superpos/simulate HTTP/1.1" 500 386
+ERROR 2025-01-02 15:55:22,642 log Internal Server Error: /superpos/simulate
+ERROR 2025-01-02 15:55:22,643 basehttp "POST /superpos/simulate HTTP/1.1" 500 386

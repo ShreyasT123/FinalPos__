@@ -1,71 +1,114 @@
 'use client'
+import React, { useState } from 'react';
+import { CircuitGrid } from '../../components/ui/CircuitGrid';
+import { GatesPalette } from '../../components/ui/GatesPalette';
+import { JsonOutput } from '../../components/ui/JsonOutput';
+import { Terminal } from 'lucide-react';
+import { Gate } from '../../types/circuit';
+import SimulationResults from '../../components/ui/SimulationResults';
+import SimulationTextResults from '../../components/ui/SimulationTextResults';
 
-import { useState } from 'react'
-import CircuitInput from '@/components/ui/circuit-input'
-import PlotContainer from '@/components/ui/plot-container'
-import CircuitInfo from '@/components/ui/circuit-info'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+export default function Altersim() {
+  const [circuit, setCircuit] = useState<Gate[]>([]);
+  const [qubits, setQubits] = useState(3);
+  const [steps, setSteps] = useState(8);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [simResults, setSimResults] = useState<any>(null);
 
-export default function QuantumCircuitVisualizer() {
-  const [stateVector, setStateVector] = useState([])
-  const [circuitDiagram, setCircuitDiagram] = useState('')
-  const [errorMessage, setErrorMessage] = useState('')
-  const [probPlotData, setProbPlotData] = useState(null)
-  const [phasePlotData, setPhasePlotData] = useState(null)
+  const handleGateAdd = (newGate: Gate) => {
+    setCircuit([...circuit, newGate]);
+  };
 
-  const simulateCircuit = async (circuitJson: string) => {
-    try {
-      const response = await fetch('http://127.0.0.1:5000/simulate_circuit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ circuit: circuitJson }),
-      })
+  const handleStepsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = Math.min(10, Math.max(1, parseInt(e.target.value)));
+    setSteps(value);
+    setCircuit([]); // Reset circuit when changing steps
+  };
 
-      if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.error || 'Failed to simulate circuit')
-      }
+  const handleQubitsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = Math.max(1, parseInt(e.target.value));
+    setQubits(value);
+    setCircuit([]); // Reset circuit when changing qubits
+  };
 
-      const data = await response.json()
-      setStateVector(data.state_vector)
-      setCircuitDiagram(data.circuit)
-      setProbPlotData(JSON.parse(data.prob_plot))
-      setPhasePlotData(JSON.parse(data.phase_plot))
-      setErrorMessage('')
-    } catch (error) {
-      console.error('Error simulating circuit:', error)
-      setErrorMessage(`Error: ${error.message}`)
-    }
-  }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleSimulationResults = (results: any) => {
+    setSimResults(results);
+  };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <Card className="mb-8">
-        <CardHeader>
-          <CardTitle className="text-3xl font-bold text-navy-800 dark:text-navy-100">
-            Quantum Circuit Visualizer
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-navy-600 dark:text-navy-300 mb-4">
-            Enter your quantum circuit JSON in the text area below. Click 'Simulate Circuit' to visualize the results on the 3D sphere and in the plots. The circuit diagram and state information will be displayed here.
-          </p>
-        </CardContent>
-      </Card>
+    <div className="min-h-screen bg-gradient-to-br from-black to-gray-900">
+      <header className="bg-black/50 border-b border-cyan-500/20">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex items-center space-x-2">
+            <Terminal className="w-8 h-8 text-cyan-400" />
+            <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
+              Quantum Circuit Composer
+            </h1>
+          </div>
+        </div>
+      </header>
 
-      <div className="space-y-8">
-        <CircuitInput onSimulate={simulateCircuit} />
-        <CircuitInfo
-          circuitDiagram={circuitDiagram}
-          stateVector={stateVector}
-          errorMessage={errorMessage}
-        />
-        <PlotContainer
-          probPlotData={probPlotData}
-          phasePlotData={phasePlotData}
-        />
-      </div>
+      <main className="max-w-7xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-4 gap-8">
+          <div className="col-span-1">
+            <GatesPalette />
+          </div>
+
+          <div className="col-span-3 space-y-6">
+            <div className="bg-black/50 border border-cyan-500/20 p-6 rounded-lg">
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-lg font-semibold text-gray-100">Circuit Design</h2>
+                <div className="flex space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <label className="text-gray-300 text-sm">Qubits:</label>
+                    <input
+                      type="number"
+                      min="1"
+                      value={qubits}
+                      onChange={handleQubitsChange}
+                      className="w-16 px-2 py-1 bg-black/30 border border-cyan-500/20 rounded text-gray-100"
+                    />
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <label className="text-gray-300 text-sm">Steps:</label>
+                    <input
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={steps}
+                      onChange={handleStepsChange}
+                      className="w-16 px-2 py-1 bg-black/30 border border-cyan-500/20 rounded text-gray-100"
+                    />
+                  </div>
+                </div>
+              </div>
+              <CircuitGrid
+                qubits={qubits}
+                steps={steps}
+                circuit={circuit}
+                onGateAdd={handleGateAdd}
+              />
+            </div>
+
+            <JsonOutput 
+              circuit={circuit} 
+              qubits={qubits}
+              onSimulationResults={handleSimulationResults} 
+            />
+
+            {simResults && (
+              <>
+                <SimulationResults 
+                  probPlotData={simResults.prob_plot} 
+                  phasePlotData={simResults.phase_plot} 
+                />
+                <SimulationTextResults results={simResults} />
+              </>
+            )}
+          </div>
+        </div>
+      </main>
     </div>
-  )
+  );
 }
-

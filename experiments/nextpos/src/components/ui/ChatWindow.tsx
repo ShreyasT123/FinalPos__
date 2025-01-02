@@ -29,7 +29,7 @@ export function ChatWindow() {
 
     try {
       // Replace this URL with your actual Python backend URL
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('http://localhost:8000/superpos/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input }),
