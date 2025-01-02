@@ -10,7 +10,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.http import JsonResponse, HttpResponseBadRequest
 import google.generativeai as genai
-
+import os
 # Add your Google Generative AI API Key and Quantum context here
 quantum_tool_context = """
 Quantum Computing Educational Tool Overview:
@@ -55,7 +55,8 @@ Vision for Future:
 """
 extra = "based on this answer foloowing question please and avoid using sentences like sure im ready to help and or give closure from your side "
 # Initialize the Google Generative AI client
-genai.configure(api_key="AIzaSyDnCktO8yyleGmzBYh9MR-WP3llhMp_TRs")
+genai.configure(api_key=os.environ["GENERATIVEAI_API_KEY"])
+
 # Define the model
 model = genai.GenerativeModel('gemini-1.5-flash')
 
